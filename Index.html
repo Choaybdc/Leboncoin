@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leboncoin Redesign</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+        <img src="file:///Users/dc/Desktop/My%20Project/Leboncoin/logo.png" alt="Leboncoin Logo">
+    </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Real Estate</a></li>
+            <li><a href="#">Vehicles</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+        <div class="user-profile">
+            <a href="#">Login</a>
+            <a href="#">Sign up</a>
+        </div>
+    </nav>
+      <!-- logo -->
+    
+    
+    <!-- Search Bar -->
+    <section class="search-section">
+        <h1>Find what you need!</h1>
+        <input type="text" placeholder="Search for items, services..." class="search-bar">
+        <div class="filters">
+            <input type="number" placeholder="Min Price" class="filter-input">
+            <input type="number" placeholder="Max Price" class="filter-input">
+            <input type="text" placeholder="Location" class="filter-input">
+            <button class="search-btn" onclick="searchItems()">Search</button>
+        </div>
+    </section>
+
+    <!-- Listings -->
+    <section class="listings" id="listings">
+        <!-- Dynamically populated listings -->
+    </section>
+
+    <!-- Seller Profile -->
+    <aside class="seller-profile">
+        <h3>Seller Profile</h3>
+        <img src="https://via.placeholder.com/100" alt="Seller">
+        <p>Verified Seller</p>
+        <p>Rating: ★★★★★</p>
+    </aside>
+
+    <script src="app.js"></script>
+</body>
+</html>
